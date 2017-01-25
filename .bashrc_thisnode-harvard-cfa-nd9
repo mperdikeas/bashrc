@@ -75,3 +75,4 @@ alias v='cd /view/mperdike_dev_view/vobs/'
 # my own customizations end
 
 
+alias prj='cd /export/mperdike/prj/'
