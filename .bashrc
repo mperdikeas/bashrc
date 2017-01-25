@@ -213,8 +213,14 @@ alias lsblk='lsblk -o name,mountpoint,label,size,uuid'
 shopt -s dotglob # enable dot globbing
 
 # https://spin.atomicobject.com/2016/05/28/log-bash-history/ - START
-mkdir -p ~/.logs
-export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> ~/.logs/bash-history-$(date "+%Y-%m-%d").log; fi'
+. .bashrc.local.environment
+if [ -z ${CUSTOM_HISTORY_LOG_DIR_BASE+x} ]; then # http://stackoverflow.com/a/13864829/274677
+    printf "\n\n\n\n\n\t\tCUSTOM_HISTORY_LOG_DIR_BASE is unset\n\n\n";
+fi
+readonly EFFECTIVE_DIR="$CUSTOM_HISTORY_LOG_DIR_BASE/.logs"
+
+mkdir -p ${EFFECTIVE_DIR}
+export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> '"${EFFECTIVE_DIR}"'/bash-history-$(date "+%Y-%m-%d").log; fi'
 # https://spin.atomicobject.com/2016/05/28/log-bash-history/ - END
 
 #http://stackoverflow.com/a/19616645/274677
