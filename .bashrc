@@ -217,7 +217,7 @@ shopt -s dotglob # enable dot globbing
 if [ -z ${CUSTOM_HISTORY_LOG_DIR_BASE+x} ]; then # http://stackoverflow.com/a/13864829/274677
     printf "\n\n\n\n\n\t\tCUSTOM_HISTORY_LOG_DIR_BASE is unset\n\n\n";
 fi
-readonly EFFECTIVE_DIR="$CUSTOM_HISTORY_LOG_DIR_BASE/.logs"
+EFFECTIVE_DIR="$CUSTOM_HISTORY_LOG_DIR_BASE/.logs"
 
 mkdir -p ${EFFECTIVE_DIR}
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> '"${EFFECTIVE_DIR}"'/bash-history-$(date "+%Y-%m-%d").log; fi'
