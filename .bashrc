@@ -219,6 +219,14 @@ if [ -z ${CUSTOM_HISTORY_LOG_DIR_BASE+x} ]; then # http://stackoverflow.com/a/13
 fi
 EFFECTIVE_DIR="$CUSTOM_HISTORY_LOG_DIR_BASE/.logs"
 
+if [ -z ${CACHE_OF_OBLIVION+x} ]; then # http://stackoverflow.com/a/13864829/274677
+    printf "\n\n\n\n\n\t\tCACHE_OF_OBLIVION is unset\n\n\n";
+else
+    export CACHE_OF_OBLIVION=${CACHE_OF_OBLIVION}
+fi
+
+
+
 mkdir -p ${EFFECTIVE_DIR}
 export PROMPT_COMMAND='if [ "$(id -u)" -ne 0 ]; then echo "$(date "+%Y-%m-%d.%H:%M:%S") $(pwd) $(history 1)" >> '"${EFFECTIVE_DIR}"'/bash-history-$(date "+%Y-%m-%d").log; fi'
 # https://spin.atomicobject.com/2016/05/28/log-bash-history/ - END
