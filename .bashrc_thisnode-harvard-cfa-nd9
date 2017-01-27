@@ -70,7 +70,8 @@ export PATH=/soft/SYBASE15.7/OCS-15_0/bin:$PATH
 
 # my own customizations start
 #
-export PATH=~/ant-template:$PATH
+export PATH=$PATH:~/ant-template
+export PATH=$PATH:/export/mperdike/prj/cas-auth/scripts/
 alias v='cd /view/mperdike_dev_view/vobs/'
 # my own customizations end
 
