@@ -1,0 +1,4 @@
+# properties for the local environment
+CUSTOM_HISTORY_LOG_DIR_BASE=~
+CACHE_OF_OBLIVION=~/cache-of-oblivion
+
