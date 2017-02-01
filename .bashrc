@@ -213,7 +213,7 @@ alias lsblk='lsblk -o name,mountpoint,label,size,uuid'
 shopt -s dotglob # enable dot globbing
 
 # https://spin.atomicobject.com/2016/05/28/log-bash-history/ - START
-. .bashrc.local.environment
+. ~/.bashrc.local.environment
 if [ -z ${CUSTOM_HISTORY_LOG_DIR_BASE+x} ]; then # http://stackoverflow.com/a/13864829/274677
     printf "\n\n\n\n\n\t\tCUSTOM_HISTORY_LOG_DIR_BASE is unset\n\n\n";
 fi
