@@ -77,3 +77,4 @@ alias v='cd /view/mperdike_dev_view/vobs/'
 
 
 alias prj='cd /export/mperdike/prj/'
+newgrp ccase
