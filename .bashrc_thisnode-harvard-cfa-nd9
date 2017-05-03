@@ -78,3 +78,4 @@ alias v='cd /view/mperdike_dev_view/vobs/'
 
 alias prj='cd /export/mperdike/prj/'
 printf "\n\n\n\tAFAICT newgrp can not be used from a non-interactive shell.\n\tTherefore, don't forget to do a:\n\n\t\t\tnewgrp ccase\n\n"
+alias cd-www='cd /view/mperdike_dev_view/vobs/ASC_DB_WEB/src/db/www/'
