@@ -1,6 +1,6 @@
 # scripts to connect to my NEWDEVEL9 machine with or without a password prompt
-alias nd9p=ssh-to-newdevel9-through-pogo1
-alias nd9="ssh-to-newdevel9-through-pogo1 -p"
+alias d9p=ssh-to-head-through-pogo1
+alias d9="ssh-to-head-through-pogo1 -p"
 export PATH=$PATH:~/DbVisualizer
 export CATALINA_HOME=/opt/tomcat8.5
 # strangely the below is already set in my environment but I can't figure
@@ -13,6 +13,6 @@ export PATH=$PATH:~/esavo-reg-II/scripts
 alias v="sudo vpnc sao.conf"
 alias vd="sudo vpnc-disconnect"
 # scripts to connect to my NEWDEVEL9 machine through the VPN (they require the VPN to be up)
-alias vnd9="ssh mperdike@newdevel9"
+alias nd9="ssh mperdike@devel9"
 export PATH=$PATH:~/miniconda/bin
 export PATH=$PATH:~/java-package-refactor/script
