@@ -161,7 +161,6 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sh | sort -rn"
 export ANT_ARGS='-logger org.apache.tools.ant.listener.AnsiColorLogger'
 
 alias emacs="emacs -nw"
-alias emacs25="emacs25 -nw"
 export PATH=$PATH:~/tools
 export MONO_PATH=/opt/FSharp-2.0.0.0/bin
 export ANT_OPTS="-Xms256m -Xmx1024m -XX:MaxPermSize=256m -Dant.logger.defaults=$HOME/bashrc/AnsiColorLogger.override"
