@@ -51,13 +51,13 @@ alias ct=cleartool
 alias uco='uncheckout'
 alias xcc='setenv LANG en_US; xclearcase &'
 
-# customizations suggested by Panagoula Zografou with her email 2016-10-27_15:55
+# customizations suggested by PZ with her email 2016-10-27_15:55
 alias ctmv='ct setview -exec "newgrp ccase" mperdike_dev_view'
 
-# customization suggested by Michael Tibbetts email 2016-10-31_15:21
+# customization suggested by MT email 2016-10-31_15:21
 alias cmake='clearmake -C gnu MAKE=clearmake UIROOT=/vobs/ASC_BUILD/src'
 
-# customizations suggeted by Peter Harbo with his email 2016-11-16_15:58 - start
+# customizations suggeted by PH with his email 2016-11-16_15:58 - start
 # for the purpose of connecting to Sybase (translated from the original c shell code):
 export SYBASE=/soft/SYBASE15.7
 export SYBASE_OCS=OCS-15_0
@@ -66,7 +66,7 @@ export DSQUERY=/soft/SYBASE15.7/interfaces
 export PATH=/soft/SYBASE15.7/OCS-15_0/bin:$PATH
 
 . $SYBASE/SYBASE.sh
-# customizations suggeted by Peter Harbo with his email 2016-11-16_15:58 - end
+# customizations suggeted by PH with his email 2016-11-16_15:58 - end
 
 # my own customizations start
 #
