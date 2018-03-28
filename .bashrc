@@ -251,3 +251,4 @@ set-title() {
     TITLE="\e]2;$@\a"
     PS1=${ORIG}${TITLE}
 }
+export PATH=$PATH:$HOME/.local/bin
