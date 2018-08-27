@@ -114,5 +114,5 @@ BEGIN {FS="@@"}
 }
 alias ct-lsa='ct_lsa'
 
-export PATH=/proj/DS.ots/ots.daily.12/Python-2.7.9.Linux64/bin/:$PATH
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/proj/DS.ots/ots.daily.12/Python-2.7.9.Linux64/lib/
+export PATH=/proj/DS.ots/ots.daily.15/Python-2.7.11.Linux64/bin/:$PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/proj/DS.ots/ots.daily.15/Python-2.7.11.Linux64/lib/
