@@ -16,3 +16,4 @@ alias vd="sudo vpnc-disconnect"
 alias nd9="ssh mperdike@devel9"
 export PATH=$PATH:~/miniconda/bin
 export PATH=$PATH:~/java-package-refactor/script
+alias cd-www='cd /home/mperdikeas/cfa/vobs/ASC_DB_WEB/src/db/www/'
