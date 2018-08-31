@@ -17,3 +17,5 @@ alias nd9="ssh mperdike@devel9"
 export PATH=$PATH:~/miniconda/bin
 export PATH=$PATH:~/java-package-refactor/script
 alias cd-www='cd /home/mperdikeas/cfa/vobs/ASC_DB_WEB/src/db/www/'
+export PATH=$PATH:~/java-package-refactor/script
+export PATH=/home/mperdikeas/software-downloads/node/8.11.4-LTS/sources-build/node-v8.11.4/out/Release:$PATH
