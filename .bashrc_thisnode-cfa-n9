@@ -117,3 +117,5 @@ alias ct-lsa='ct_lsa'
 export PATH=/proj/DS.ots/ots.daily.15/Python-2.7.11.Linux64/bin/:$PATH
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/proj/DS.ots/ots.daily.15/Python-2.7.11.Linux64/lib/
 alias ant=/proj/DS.ots/ots.daily.15/apache/apache-ant-1.9.9/bin/ant
+export ANT_HOME=/proj/DS.ots/ots.daily.15/apache/apache-ant-1.9.9
+alias antbuild=/view/mperdike_dev_view/vobs/ASC_BUILD/src/antbuild.sh
