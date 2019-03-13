@@ -239,6 +239,7 @@ alias gs='git status -s'
 alias gq='git add . -A -n'
 alias ga='git add . -A'
 alias gd='git diff --no-ext-diff'
+alias gb='git branch'
 alias gdd='git diff'
 gcmF() {
     git commit -m "$*"
