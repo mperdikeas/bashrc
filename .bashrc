@@ -253,3 +253,7 @@ set-title() {
     PS1=${ORIG}${TITLE}
 }
 export PATH=$PATH:$HOME/.local/bin
+
+# https://askubuntu.com/a/6703/89663
+# requires: sudo apt-get install trash-cli
+alias rm=trash
