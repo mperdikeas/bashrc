@@ -256,4 +256,5 @@ export PATH=$PATH:$HOME/.local/bin
 
 # https://askubuntu.com/a/6703/89663
 # requires: sudo apt-get install trash-cli
-alias rm=trash
+# https://github.com/andreafrancia/trash-cli
+alias rm='echo "This is not the command you are looking for. Use either \rm or trash-put"; false'
