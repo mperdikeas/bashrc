@@ -6,6 +6,11 @@ export CATALINA_HOME=/opt/tomcat8.5
 # strangely the below is already set in my environment but I can't figure
 # out from where:
 #     export JAVA_HOME=/usr/lib/jvm/java-8-oracle
+# update 2019-06-03
+# -----------------
+# I figured that out, it's coming from:
+#     /etc/profile.d/jdk.sh
+#
 export JRE_HOME=/usr/lib/jvm/java-8-oracle/jre
 export PATH=$PATH:~/ant-template
 export PATH=$PATH:~/esavo-reg-II/scripts
