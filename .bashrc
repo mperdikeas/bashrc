@@ -254,7 +254,11 @@ set-title() {
 }
 export PATH=$PATH:$HOME/.local/bin
 
+
+# it turned out that the below was more trouble than was worth it
+# --%<---------------------------------------------------------------------------------------------
 # https://askubuntu.com/a/6703/89663
 # requires: sudo apt-get install trash-cli
 # https://github.com/andreafrancia/trash-cli
-alias rm='echo "This is not the command you are looking for. Use either \rm or trash-put"; false'
+# alias rm='echo "This is not the command you are looking for. Use either \rm or trash-put"; false'
+# --------------------------------------------------------------------------------------------->%--
