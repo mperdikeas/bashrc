@@ -1,10 +1,10 @@
 # properties for the local environment on the LENOVO Thinkpad T460
-CUSTOM_HISTORY_LOG_DIR_BASE=~
-CACHE_OF_OBLIVION=~/cache-of-oblivion
-ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
-ORACLE_SID=XE
-NLS_LANG=`$ORACLE_HOME/bin/nls_lang.sh`
-ORACLE_BASE=/u01/app/oracle
-LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
-PATH=$ORACLE_HOME/bin:$PATH
+export CUSTOM_HISTORY_LOG_DIR_BASE=~
+export CACHE_OF_OBLIVION=~/cache-of-oblivion
+export ORACLE_HOME=/u01/app/oracle/product/11.2.0/xe
+export ORACLE_SID=XE
+export NLS_LANG=`$ORACLE_HOME/bin/nls_lang.sh`
+export ORACLE_BASE=/u01/app/oracle
+export LD_LIBRARY_PATH=$ORACLE_HOME/lib:$LD_LIBRARY_PATH
+export PATH=$ORACLE_HOME/bin:$PATH
 
