@@ -1,5 +1,6 @@
 # properties for the local environment on the LENOVO ThinkStation P320
 export CUSTOM_HISTORY_LOG_DIR_BASE=~
 export CACHE_OF_OBLIVION=~/cache-of-oblivion
+export PATH=/home/mperdikeas/software/node-v14.16.1-linux-x64/bin:$PATH
 
 
